@@ -4,6 +4,12 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <UseWPF>true</UseWPF>
     <RootNamespace>AutoScaleUI</RootNamespace>
+    <Authors>lumiria</Authors>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageTags>scale, wpf</PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Copyright>© 2020 lumiria</Copyright>
+    <Description>This provides a function to automatically adjust the scale of the UI.</Description>
   </PropertyGroup>
 
   <ItemGroup>

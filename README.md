@@ -1,4 +1,5 @@
 # AutoScaleUI.Wpf
+This provides a function to automatically adjust the scale of the UI.
 
 ## Install
 ~~~
