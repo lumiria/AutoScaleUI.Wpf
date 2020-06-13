@@ -8,7 +8,7 @@ PM > Install-Package AutoScaleUI.Wpf
 
 ## Brief Introduction
 Framework elements with AutoScaleBehavior will now maintain their relative size as the target parent element is resized.
-![screenshot-01](https://github.com/lumiria/AutoScaleUI.Wpf/images/AutoScaleUI-screenshot-01.png)
+![screenshot-01](https://github.com/lumiria/AutoScaleUI.Wpf/blobs/images/AutoScaleUI-screenshot-01.png)
 
 
 ## Lisence
