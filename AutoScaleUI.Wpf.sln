@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30128.74
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E46C4952-473B-4490-AFFE-43A92E5261DC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sample", "sample", "{6CA04A98-F047-48B1-A974-818B1D4F0746}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoScaleUI.Wpf", "src\AutoScaleUI.Wpf.csproj", "{235910A3-C332-44CF-ABEE-BB96D961F571}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoScaleUI.Sample", "sample\AutoScaleBehavior.Sample\AutoScaleUI.Sample.csproj", "{2A87C118-F553-4B23-9A3A-E00CA032FDC8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{679D5BCA-0E28-4185-AAA7-C0AA01ECA2B9}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{235910A3-C332-44CF-ABEE-BB96D961F571}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{235910A3-C332-44CF-ABEE-BB96D961F571}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{235910A3-C332-44CF-ABEE-BB96D961F571}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{235910A3-C332-44CF-ABEE-BB96D961F571}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A87C118-F553-4B23-9A3A-E00CA032FDC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A87C118-F553-4B23-9A3A-E00CA032FDC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A87C118-F553-4B23-9A3A-E00CA032FDC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A87C118-F553-4B23-9A3A-E00CA032FDC8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{235910A3-C332-44CF-ABEE-BB96D961F571} = {E46C4952-473B-4490-AFFE-43A92E5261DC}
+		{2A87C118-F553-4B23-9A3A-E00CA032FDC8} = {6CA04A98-F047-48B1-A974-818B1D4F0746}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CFD5CAFF-C012-4AEF-903A-EC2EF9A31C4E}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,12 @@
+﻿<Window x:Class="AutoScaleUI.Sample.Views.OriginalWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:local="clr-namespace:AutoScaleUI.Sample.Views"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        Title="OriginalWindow"
+        Width="480"
+        Height="270"
+        mc:Ignorable="d">
+    <local:ChildContent Close="ChildContent_Close" />
+</Window>
