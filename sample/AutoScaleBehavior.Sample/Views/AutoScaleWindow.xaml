@@ -7,17 +7,15 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:wpf="http://schemas.lumiria.com/wpf/behaviors"
         Title="AutoScaleWindow"
-        Width="480"
+        Width="540"
         Height="270"
         mc:Ignorable="d">
-    <ScrollViewer HorizontalScrollBarVisibility="Visible">
-        <Grid>
-            <local:ChildContent Close="ChildContent_Close" />
-            
-            <i:Interaction.Behaviors>
-                <wpf:AutoScaleBehavior MaintainsAspectRaito="true" TargetParent="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ScrollViewer}}}" />
-            </i:Interaction.Behaviors>
-        </Grid>
-    </ScrollViewer>
+    <Grid>
+        <local:ChildContent Close="ChildContent_Close" />
+
+        <i:Interaction.Behaviors>
+            <wpf:AutoScaleBehavior MaintainsAspectRaito="true" TargetParent="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type Window}}}" />
+        </i:Interaction.Behaviors>
+    </Grid>
 
 </Window>

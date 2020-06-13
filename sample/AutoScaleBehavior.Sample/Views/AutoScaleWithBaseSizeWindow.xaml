@@ -14,7 +14,7 @@
         <local:ChildContent Close="ChildContent_Close" />
 
         <i:Interaction.Behaviors>
-            <wpf:AutoScaleBehavior BaseSize="240, 135"
+            <wpf:AutoScaleBehavior BaseSize="480, 270"
                                    MaintainsAspectRaito="true"
                                    TargetParent="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type Window}}}" />
         </i:Interaction.Behaviors>
